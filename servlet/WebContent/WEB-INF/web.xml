@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:web="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+	<display-name>servlet</display-name>
+
+	<filter>
+		<filter-name>LogFilter</filter-name>
+		<filter-class>servlet.LogFilter</filter-class>
+		<init-param>
+			<param-name>Site</param-name>
+			<param-value>菜鸟教程</param-value>
+		</init-param>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>LogFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<servlet>
+		<servlet-name>HelloWorld</servlet-name>
+		<servlet-class>servlet.ServletTest</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HelloWorld</servlet-name>
+		<url-pattern>/HelloWorld</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>ErrorHandler</servlet-name>
+		<servlet-class>servlet.ErrorHandler</servlet-class>
+	</servlet>
+	<!-- servlet mappings -->
+	<servlet-mapping>
+		<servlet-name>ErrorHandler</servlet-name>
+		<url-pattern>/ErrorHandler</url-pattern>
+	</servlet-mapping>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/ErrorHandler</location>
+	</error-page>
+	<error-page>
+		<exception-type>java.lang.Throwable</exception-type>
+		<location>/ErrorHandler</location>
+	</error-page>
+</web-app>

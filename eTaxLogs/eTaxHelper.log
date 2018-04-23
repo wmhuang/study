@@ -1,0 +1,355 @@
+[INFO ][2017/12/07 16:54:07 847]----------------------------------------------
+[INFO ][2017/12/07 16:54:07 861]记录请求参数
+[INFO ][2017/12/07 16:54:07 863]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 16:54:07 863]getRequestValue
+[INFO ][2017/12/07 16:54:07 863]客户端地址:0:0:0:0:0:0:0:1
+[INFO ][2017/12/07 16:54:07 871]请求的参数信息为：{"key":"c"}
+[INFO ][2017/12/07 16:54:07 873]返回结果：{"msg":"该key+【c】对应的value为空。","success":false}
+[INFO ][2017/12/07 16:55:32 22]----------------------------------------------
+[INFO ][2017/12/07 16:55:32 23]记录请求参数
+[INFO ][2017/12/07 16:55:32 23]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 16:55:32 23]getRequestValue
+[INFO ][2017/12/07 16:55:32 23]客户端地址:0:0:0:0:0:0:0:1
+[INFO ][2017/12/07 16:55:32 24]请求的参数信息为：{"key":"c"}
+[INFO ][2017/12/07 16:55:33 30]返回结果：{"msg":"获取request库中数据异常，java.net.ConnectException: Connection refused: connect","success":false}
+[INFO ][2017/12/07 17:01:59 249]----------------------------------------------
+[INFO ][2017/12/07 17:01:59 250]记录请求参数
+[INFO ][2017/12/07 17:01:59 250]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 17:01:59 250]getRequestValue
+[INFO ][2017/12/07 17:01:59 250]客户端地址:0:0:0:0:0:0:0:1
+[INFO ][2017/12/07 17:01:59 251]请求的参数信息为：{"key":"c"}
+[INFO ][2017/12/07 17:02:00 264]返回结果：{"msg":"获取request库中数据异常，java.net.ConnectException: Connection refused: connect","success":false}
+[INFO ][2017/12/07 17:02:25 371]----------------------------------------------
+[INFO ][2017/12/07 17:02:25 371]记录请求参数
+[INFO ][2017/12/07 17:02:25 371]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 17:02:25 372]getRequestValue
+[INFO ][2017/12/07 17:02:25 372]客户端地址:0:0:0:0:0:0:0:1
+[INFO ][2017/12/07 17:02:25 373]请求的参数信息为：{"key":"c"}
+[INFO ][2017/12/07 17:02:25 374]返回结果：{"msg":"该key=【c】对应的value为空。","success":false}
+[INFO ][2017/12/07 17:20:02 537]----------------------------------------------
+[INFO ][2017/12/07 17:20:02 537]记录请求参数
+[INFO ][2017/12/07 17:20:02 537]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 17:20:02 537]setRequestValue
+[INFO ][2017/12/07 17:20:02 537]客户端地址:172.16.5.27
+[INFO ][2017/12/07 17:20:02 537]请求的参数信息为：{}
+[INFO ][2017/12/07 17:20:02 538]返回结果：{"msg":"参数异常，key和value参数不能为空！key=【null】;valye=【null】","success":false}
+[INFO ][2017/12/07 17:20:34 891]----------------------------------------------
+[INFO ][2017/12/07 17:20:34 892]记录请求参数
+[INFO ][2017/12/07 17:20:34 892]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 17:20:34 892]setRequestValue
+[INFO ][2017/12/07 17:20:34 892]客户端地址:172.16.5.27
+[INFO ][2017/12/07 17:20:34 893]请求的参数信息为：{"key":"dd"}
+[INFO ][2017/12/07 17:20:34 895]返回结果：{"msg":"参数异常，key和value参数不能为空！key=【dd】;valye=【null】","success":false}
+[INFO ][2017/12/07 17:20:41 697]----------------------------------------------
+[INFO ][2017/12/07 17:20:41 698]记录请求参数
+[INFO ][2017/12/07 17:20:41 698]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 17:20:41 698]setRequestValue
+[INFO ][2017/12/07 17:20:41 699]客户端地址:172.16.5.27
+[INFO ][2017/12/07 17:20:41 699]请求的参数信息为：{"value":"123","key":"dd"}
+[INFO ][2017/12/07 17:20:41 705]返回结果：{"msg":"操作成功","success":true}
+[INFO ][2017/12/07 17:20:48 355]----------------------------------------------
+[INFO ][2017/12/07 17:20:48 356]记录请求参数
+[INFO ][2017/12/07 17:20:48 356]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 17:20:48 356]setRequestValue
+[INFO ][2017/12/07 17:20:48 356]客户端地址:172.16.5.27
+[INFO ][2017/12/07 17:20:48 356]请求的参数信息为：{"value":"123","key":"dd"}
+[INFO ][2017/12/07 17:20:48 361]返回结果：{"msg":"操作成功","success":true}
+[INFO ][2017/12/07 17:20:50 858]----------------------------------------------
+[INFO ][2017/12/07 17:20:50 858]记录请求参数
+[INFO ][2017/12/07 17:20:50 858]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 17:20:50 858]setRequestValue
+[INFO ][2017/12/07 17:20:50 858]客户端地址:172.16.5.27
+[INFO ][2017/12/07 17:20:50 859]请求的参数信息为：{"value":"123","key":"dd"}
+[INFO ][2017/12/07 17:20:50 861]返回结果：{"msg":"操作成功","success":true}
+[INFO ][2017/12/07 17:27:53 480]Starting EtaxApplication on wmhuang-PC with PID 2104 (D:\study\etax\target\classes started by ryp in D:\study\etax)
+[INFO ][2017/12/07 17:27:53 523]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa9e4eb: startup date [Thu Dec 07 17:27:53 CST 2017]; root of context hierarchy
+[INFO ][2017/12/07 17:27:54 230]Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+[INFO ][2017/12/07 17:27:54 616]HV000001: Hibernate Validator 5.1.3.Final
+[INFO ][2017/12/07 17:27:55 715]Tomcat initialized with port(s): 8080 (http)
+[INFO ][2017/12/07 17:27:56 77]Starting service Tomcat
+[INFO ][2017/12/07 17:27:56 79]Starting Servlet Engine: Apache Tomcat/8.0.23
+[INFO ][2017/12/07 17:27:56 381]Initializing Spring embedded WebApplicationContext
+[INFO ][2017/12/07 17:27:56 381]Root WebApplicationContext: initialization completed in 2861 ms
+[INFO ][2017/12/07 17:27:57 534]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][2017/12/07 17:27:57 543]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][2017/12/07 17:27:57 544]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][2017/12/07 17:27:58 351]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa9e4eb: startup date [Thu Dec 07 17:27:53 CST 2017]; root of context hierarchy
+[INFO ][2017/12/07 17:27:58 468]Mapped "{[/public/setResponseValue],methods=[POST]}" onto public com.css.etax.utils.Result com.css.etax.controller.PublicMethodController.setResponseValue(java.lang.String,java.lang.String)
+[INFO ][2017/12/07 17:27:58 469]Mapped "{[/public/getResponseValue],methods=[POST]}" onto public com.css.etax.utils.Result com.css.etax.controller.PublicMethodController.getResponseValue(java.lang.String)
+[INFO ][2017/12/07 17:27:58 471]Mapped "{[/public/setRequestValue],methods=[POST]}" onto public com.css.etax.utils.Result com.css.etax.controller.PublicMethodController.setRequestValue(java.lang.String,java.lang.String)
+[INFO ][2017/12/07 17:27:58 471]Mapped "{[/public/getRequestValue],methods=[POST]}" onto public com.css.etax.utils.Result com.css.etax.controller.PublicMethodController.getRequestValue(java.lang.String)
+[INFO ][2017/12/07 17:27:58 474]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][2017/12/07 17:27:58 474]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+[INFO ][2017/12/07 17:27:58 542]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][2017/12/07 17:27:58 542]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][2017/12/07 17:27:58 618]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][2017/12/07 17:27:58 779]Registering beans for JMX exposure on startup
+[INFO ][2017/12/07 17:27:58 816]Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ][2017/12/07 17:27:58 826]Starting ProtocolHandler ["http-nio-8080"]
+[INFO ][2017/12/07 17:27:58 846]Using a shared selector for servlet write/read
+[INFO ][2017/12/07 17:27:58 880]Tomcat started on port(s): 8080 (http)
+[INFO ][2017/12/07 17:27:58 883]Started EtaxApplication in 5.791 seconds (JVM running for 6.37)
+[INFO ][2017/12/07 17:28:02 882]Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO ][2017/12/07 17:28:02 882]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ][2017/12/07 17:28:02 930]FrameworkServlet 'dispatcherServlet': initialization completed in 48 ms
+[WARN ][2017/12/07 17:28:02 958]Request method 'GET' not supported
+[INFO ][2017/12/07 17:28:08 925]----------------------------------------------
+[INFO ][2017/12/07 17:28:08 925]记录请求参数
+[INFO ][2017/12/07 17:28:08 927]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 17:28:08 927]setRequestValue
+[INFO ][2017/12/07 17:28:08 928]请求方式：POST
+[INFO ][2017/12/07 17:28:08 928]客户端地址:172.16.5.27
+[INFO ][2017/12/07 17:28:08 989]请求的参数信息为：{"value":"123","key":"dd"}
+[INFO ][2017/12/07 17:28:09 66]返回结果：{"msg":"操作成功","success":true}
+[INFO ][2017/12/07 10:19:26 378]Starting EtaxApplication on wmhuang-PC with PID 1884 (D:\study\etax\target\classes started by ryp in D:\study\etax)
+[INFO ][2017/12/07 10:19:26 424]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa9e4eb: startup date [Thu Dec 07 10:19:26 CST 2017]; root of context hierarchy
+[INFO ][2017/12/07 10:19:27 64]Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+[INFO ][2017/12/07 10:19:27 407]HV000001: Hibernate Validator 5.1.3.Final
+[INFO ][2017/12/07 10:19:28 375]Tomcat initialized with port(s): 8080 (http)
+[INFO ][2017/12/07 10:19:28 750]Starting service Tomcat
+[INFO ][2017/12/07 10:19:28 750]Starting Servlet Engine: Apache Tomcat/8.0.23
+[INFO ][2017/12/07 10:19:28 986]Initializing Spring embedded WebApplicationContext
+[INFO ][2017/12/07 10:19:28 986]Root WebApplicationContext: initialization completed in 2562 ms
+[INFO ][2017/12/07 10:19:29 906]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][2017/12/07 10:19:29 906]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][2017/12/07 10:19:29 906]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][2017/12/07 10:19:30 718]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa9e4eb: startup date [Thu Dec 07 10:19:26 CST 2017]; root of context hierarchy
+[INFO ][2017/12/07 10:19:30 781]Mapped "{[/public/setResponseValue],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.setResponseValue(java.lang.String,java.lang.String)
+[INFO ][2017/12/07 10:19:30 781]Mapped "{[/public/setRequestValue],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.setRequestValue(java.lang.String,java.lang.String)
+[INFO ][2017/12/07 10:19:30 781]Mapped "{[/public/getRequestValue],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.getRequestValue(java.lang.String)
+[INFO ][2017/12/07 10:19:30 781]Mapped "{[/public/getResponseValue],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.getResponseValue(java.lang.String)
+[INFO ][2017/12/07 10:19:30 781]Mapped "{[/public/delRequestValue],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.delRequestValue(java.lang.String)
+[INFO ][2017/12/07 10:19:30 781]Mapped "{[/public/delResponseValue],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.delResponseValue(java.lang.String)
+[INFO ][2017/12/07 10:19:30 781]Mapped "{[/public/delAllValue],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.delAllValue(java.lang.String)
+[INFO ][2017/12/07 10:19:30 796]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][2017/12/07 10:19:30 796]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+[INFO ][2017/12/07 10:19:30 843]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][2017/12/07 10:19:30 843]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][2017/12/07 10:19:30 906]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][2017/12/07 10:19:31 70]Registering beans for JMX exposure on startup
+[INFO ][2017/12/07 10:19:31 117]Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ][2017/12/07 10:19:31 132]Starting ProtocolHandler ["http-nio-8080"]
+[INFO ][2017/12/07 10:19:31 226]Using a shared selector for servlet write/read
+[INFO ][2017/12/07 10:19:31 273]Tomcat started on port(s): 8080 (http)
+[INFO ][2017/12/07 10:19:31 288]Started EtaxApplication in 5.302 seconds (JVM running for 6.011)
+[INFO ][2017/12/07 10:21:30 84]Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO ][2017/12/07 10:21:30 85]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ][2017/12/07 10:21:30 114]FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+[INFO ][2017/12/07 10:21:30 174]----------------------------------------------
+[INFO ][2017/12/07 10:21:30 183]记录请求参数
+[INFO ][2017/12/07 10:21:30 186]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:21:30 186]setRequestValue
+[INFO ][2017/12/07 10:21:30 188]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:21:30 188]请求方式：POST
+[INFO ][2017/12/07 10:21:30 292]请求的参数信息为：{"value":"123","key":"dd"}
+[INFO ][2017/12/07 10:21:31 497]返回结果："{\"msg\":\"Redis请求库入库异常java.net.ConnectException: Connection refused: connect\",\"success\":false}"
+[INFO ][2017/12/07 10:22:34 151]----------------------------------------------
+[INFO ][2017/12/07 10:22:34 151]记录请求参数
+[INFO ][2017/12/07 10:22:34 151]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:22:34 153]setRequestValue
+[INFO ][2017/12/07 10:22:34 153]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:22:34 153]请求方式：POST
+[INFO ][2017/12/07 10:22:34 154]请求的参数信息为：{"value":"123","key":"dd"}
+[INFO ][2017/12/07 10:22:34 170]返回结果："{\"msg\":\"Redis请求库入库成功\",\"o\":\"OK\",\"success\":true}"
+[WARN ][2017/12/07 10:40:18 640]Request method 'GET' not supported
+[INFO ][2017/12/07 10:40:36 232]----------------------------------------------
+[INFO ][2017/12/07 10:40:36 233]记录请求参数
+[INFO ][2017/12/07 10:40:36 233]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:40:36 233]getRequestValue
+[INFO ][2017/12/07 10:40:36 234]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:40:36 234]请求方式：POST
+[INFO ][2017/12/07 10:40:36 234]请求的参数信息为：{"key":"a"}
+[INFO ][2017/12/07 10:40:36 239]返回结果："{\"msg\":\"获取Reids请求库数据成功\",\"o\":\"abcd\",\"success\":true}"
+[INFO ][2017/12/07 10:41:13 376]----------------------------------------------
+[INFO ][2017/12/07 10:41:13 376]记录请求参数
+[INFO ][2017/12/07 10:41:13 377]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:41:13 377]getRequestValue
+[INFO ][2017/12/07 10:41:13 377]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:41:13 377]请求方式：POST
+[INFO ][2017/12/07 10:41:13 377]请求的参数信息为：{"key":"b"}
+[INFO ][2017/12/07 10:41:13 381]返回结果："{\"msg\":\"该key=【b】对应的value为空。\",\"success\":false}"
+[INFO ][2017/12/07 10:41:21 193]----------------------------------------------
+[INFO ][2017/12/07 10:41:21 193]记录请求参数
+[INFO ][2017/12/07 10:41:21 193]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:41:21 193]getRequestValue
+[INFO ][2017/12/07 10:41:21 194]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:41:21 194]请求方式：POST
+[INFO ][2017/12/07 10:41:21 194]请求的参数信息为：{"key":"a"}
+[INFO ][2017/12/07 10:41:21 211]返回结果："{\"msg\":\"获取Reids请求库数据成功\",\"o\":\"abcd\",\"success\":true}"
+[INFO ][2017/12/07 10:41:28 65]----------------------------------------------
+[INFO ][2017/12/07 10:41:28 65]记录请求参数
+[INFO ][2017/12/07 10:41:28 66]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:41:28 69]getRequestValue
+[INFO ][2017/12/07 10:41:28 70]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:41:28 70]请求方式：POST
+[INFO ][2017/12/07 10:41:28 71]请求的参数信息为：{"key":"v"}
+[INFO ][2017/12/07 10:41:28 77]返回结果："{\"msg\":\"该key=【v】对应的value为空。\",\"success\":false}"
+[WARN ][2017/12/07 10:43:07 907]Request method 'GET' not supported
+[INFO ][2017/12/07 10:43:14 791]----------------------------------------------
+[INFO ][2017/12/07 10:43:14 792]记录请求参数
+[INFO ][2017/12/07 10:43:14 792]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:43:14 792]setResponseValue
+[INFO ][2017/12/07 10:43:14 792]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:43:14 793]请求方式：POST
+[INFO ][2017/12/07 10:43:14 793]请求的参数信息为：{"a":"wwwww"}
+[INFO ][2017/12/07 10:43:14 793]返回结果："{\"msg\":\"参数异常，参数key和value不能为空\",\"success\":false}"
+[INFO ][2017/12/07 10:43:39 259]----------------------------------------------
+[INFO ][2017/12/07 10:43:39 260]记录请求参数
+[INFO ][2017/12/07 10:43:39 260]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:43:39 260]setResponseValue
+[INFO ][2017/12/07 10:43:39 260]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:43:39 260]请求方式：POST
+[INFO ][2017/12/07 10:43:39 261]请求的参数信息为：{"value":"wwwww","key":"a"}
+[INFO ][2017/12/07 10:43:39 264]返回结果："{\"msg\":\"Redis返回库入库成功\",\"o\":\"OK\",\"success\":true}"
+[INFO ][2017/12/07 10:44:41 415]----------------------------------------------
+[INFO ][2017/12/07 10:44:41 415]记录请求参数
+[INFO ][2017/12/07 10:44:41 416]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:44:41 416]getResponseValue
+[INFO ][2017/12/07 10:44:41 416]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:44:41 416]请求方式：POST
+[INFO ][2017/12/07 10:44:41 416]请求的参数信息为：{"key":"a"}
+[INFO ][2017/12/07 10:44:41 422]返回结果："{\"msg\":\"获取Redis返回库数据成功\",\"o\":\"wwwww\",\"success\":true}"
+[INFO ][2017/12/07 10:46:42 570]----------------------------------------------
+[INFO ][2017/12/07 10:46:42 570]记录请求参数
+[INFO ][2017/12/07 10:46:42 570]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:46:42 571]getRequestValue
+[INFO ][2017/12/07 10:46:42 571]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:46:42 571]请求方式：POST
+[INFO ][2017/12/07 10:46:42 571]请求的参数信息为：{"key":"a"}
+[INFO ][2017/12/07 10:46:42 573]返回结果："{\"msg\":\"获取Reids请求库数据成功\",\"o\":\"abcd\",\"success\":true}"
+[INFO ][2017/12/07 10:46:47 632]----------------------------------------------
+[INFO ][2017/12/07 10:46:47 633]记录请求参数
+[INFO ][2017/12/07 10:46:47 633]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:46:47 633]getResponseValue
+[INFO ][2017/12/07 10:46:47 633]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:46:47 633]请求方式：POST
+[INFO ][2017/12/07 10:46:47 634]请求的参数信息为：{"key":"a"}
+[INFO ][2017/12/07 10:46:47 642]返回结果："{\"msg\":\"获取Redis返回库数据成功\",\"o\":\"wwwww\",\"success\":true}"
+[INFO ][2017/12/07 10:47:17 649]----------------------------------------------
+[INFO ][2017/12/07 10:47:17 649]记录请求参数
+[INFO ][2017/12/07 10:47:17 649]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:47:17 654]getResponseValue
+[INFO ][2017/12/07 10:47:17 655]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:47:17 655]请求方式：POST
+[INFO ][2017/12/07 10:47:17 655]请求的参数信息为：{"key":"dd"}
+[INFO ][2017/12/07 10:47:17 664]返回结果："{\"msg\":\"该key=【dd】对应的value为空。\",\"success\":false}"
+[INFO ][2017/12/07 10:47:27 382]----------------------------------------------
+[INFO ][2017/12/07 10:47:27 382]记录请求参数
+[INFO ][2017/12/07 10:47:27 382]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:47:27 383]getRequestValue
+[INFO ][2017/12/07 10:47:27 383]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:47:27 383]请求方式：POST
+[INFO ][2017/12/07 10:47:27 383]请求的参数信息为：{"key":"dd"}
+[INFO ][2017/12/07 10:47:27 385]返回结果："{\"msg\":\"获取Reids请求库数据成功\",\"o\":\"123\",\"success\":true}"
+[WARN ][2017/12/07 10:48:29 181]Request method 'GET' not supported
+[INFO ][2017/12/07 10:48:32 198]----------------------------------------------
+[INFO ][2017/12/07 10:48:32 198]记录请求参数
+[INFO ][2017/12/07 10:48:32 199]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:48:32 199]delRequestValue
+[INFO ][2017/12/07 10:48:32 199]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:48:32 199]请求方式：POST
+[INFO ][2017/12/07 10:48:32 199]请求的参数信息为：{"key":"a"}
+[INFO ][2017/12/07 10:48:32 201]返回结果："{\"msg\":\"删除 Redis请求库对应的key=【a】成功\",\"o\":1,\"success\":true}"
+[INFO ][2017/12/07 10:48:44 553]----------------------------------------------
+[INFO ][2017/12/07 10:48:44 553]记录请求参数
+[INFO ][2017/12/07 10:48:44 553]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:48:44 554]delRequestValue
+[INFO ][2017/12/07 10:48:44 554]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:48:44 554]请求方式：POST
+[INFO ][2017/12/07 10:48:44 554]请求的参数信息为：{"key":"a"}
+[INFO ][2017/12/07 10:48:44 560]返回结果："{\"msg\":\"删除 Redis请求库对应的key=【a】成功\",\"o\":0,\"success\":true}"
+[INFO ][2017/12/07 10:50:24 199]----------------------------------------------
+[INFO ][2017/12/07 10:50:24 200]记录请求参数
+[INFO ][2017/12/07 10:50:24 200]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:50:24 200]delResponseValue
+[INFO ][2017/12/07 10:50:24 200]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:50:24 200]请求方式：POST
+[INFO ][2017/12/07 10:50:24 200]请求的参数信息为：{"key":"a"}
+[INFO ][2017/12/07 10:50:24 203]返回结果："{\"msg\":\"删除 Redis返回库对应的key=【a】成功\",\"o\":1,\"success\":true}"
+[INFO ][2017/12/07 10:52:04 860]----------------------------------------------
+[INFO ][2017/12/07 10:52:04 861]记录请求参数
+[INFO ][2017/12/07 10:52:04 861]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:52:04 861]delAllValue
+[INFO ][2017/12/07 10:52:04 861]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:52:04 861]请求方式：POST
+[INFO ][2017/12/07 10:52:04 861]请求的参数信息为：{"key":"a"}
+[INFO ][2017/12/07 10:52:04 864]返回结果："{\"msg\":\"删除 Redis请求库和返回库对应的key=【a】成功\",\"o\":[0,0],\"success\":true}"
+[INFO ][2017/12/07 10:52:15 629]----------------------------------------------
+[INFO ][2017/12/07 10:52:15 630]记录请求参数
+[INFO ][2017/12/07 10:52:15 630]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 10:52:15 630]delAllValue
+[INFO ][2017/12/07 10:52:15 630]客户端地址:172.16.1.185
+[INFO ][2017/12/07 10:52:15 630]请求方式：POST
+[INFO ][2017/12/07 10:52:15 630]请求的参数信息为：{"key":"dd"}
+[INFO ][2017/12/07 10:52:15 635]返回结果："{\"msg\":\"删除 Redis请求库和返回库对应的key=【dd】成功\",\"o\":[1,0],\"success\":true}"
+[INFO ][2017/12/07 11:18:20 781]Starting EtaxApplication on wmhuang-PC with PID 5664 (D:\study\etax\target\classes started by ryp in D:\study\etax)
+[INFO ][2017/12/07 11:18:20 821]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa9e4eb: startup date [Thu Dec 07 11:18:20 CST 2017]; root of context hierarchy
+[INFO ][2017/12/07 11:18:21 451]Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+[INFO ][2017/12/07 11:18:21 804]HV000001: Hibernate Validator 5.1.3.Final
+[INFO ][2017/12/07 11:18:22 779]Tomcat initialized with port(s): 8080 (http)
+[INFO ][2017/12/07 11:18:23 18]Starting service Tomcat
+[INFO ][2017/12/07 11:18:23 20]Starting Servlet Engine: Apache Tomcat/8.0.23
+[INFO ][2017/12/07 11:18:23 362]Initializing Spring embedded WebApplicationContext
+[INFO ][2017/12/07 11:18:23 362]Root WebApplicationContext: initialization completed in 2544 ms
+[INFO ][2017/12/07 11:18:24 246]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][2017/12/07 11:18:24 254]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][2017/12/07 11:18:24 255]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][2017/12/07 11:18:24 930]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aa9e4eb: startup date [Thu Dec 07 11:18:20 CST 2017]; root of context hierarchy
+[INFO ][2017/12/07 11:18:25 29]Mapped "{[/public/setResponseValue],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.setResponseValue(java.lang.String,java.lang.String)
+[INFO ][2017/12/07 11:18:25 30]Mapped "{[/public/getRequestValue],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.getRequestValue(java.lang.String)
+[INFO ][2017/12/07 11:18:25 30]Mapped "{[/public/setRequestValue],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.setRequestValue(java.lang.String,java.lang.String)
+[INFO ][2017/12/07 11:18:25 30]Mapped "{[/public/delRequestValue],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.delRequestValue(java.lang.String)
+[INFO ][2017/12/07 11:18:25 30]Mapped "{[/public/getResponseValue],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.getResponseValue(java.lang.String)
+[INFO ][2017/12/07 11:18:25 30]Mapped "{[/public/delResponseValue],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.delResponseValue(java.lang.String)
+[INFO ][2017/12/07 11:18:25 30]Mapped "{[/public/delAllValueByKey],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.delAllValueByKey(java.lang.String)
+[INFO ][2017/12/07 11:18:25 31]Mapped "{[/public/flushRequestDb],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.flushRequestDb(java.lang.String)
+[INFO ][2017/12/07 11:18:25 31]Mapped "{[/public/flushResponseDb],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.flushResponseDb(java.lang.String)
+[INFO ][2017/12/07 11:18:25 31]Mapped "{[/public/flushAll],methods=[POST]}" onto public java.lang.String com.css.etax.controller.PublicMethodController.flushAll(java.lang.String)
+[INFO ][2017/12/07 11:18:25 33]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][2017/12/07 11:18:25 33]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+[INFO ][2017/12/07 11:18:25 90]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][2017/12/07 11:18:25 90]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][2017/12/07 11:18:25 151]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][2017/12/07 11:18:25 297]Registering beans for JMX exposure on startup
+[INFO ][2017/12/07 11:18:25 337]Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ][2017/12/07 11:18:25 347]Starting ProtocolHandler ["http-nio-8080"]
+[INFO ][2017/12/07 11:18:25 363]Using a shared selector for servlet write/read
+[INFO ][2017/12/07 11:18:25 391]Tomcat started on port(s): 8080 (http)
+[INFO ][2017/12/07 11:18:25 394]Started EtaxApplication in 4.951 seconds (JVM running for 5.523)
+[INFO ][2017/12/07 11:18:33 354]Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO ][2017/12/07 11:18:33 354]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ][2017/12/07 11:18:33 396]FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms
+[WARN ][2017/12/07 11:18:33 426]Request method 'POST' not supported
+[WARN ][2017/12/07 11:18:56 106]Request method 'POST' not supported
+[INFO ][2017/12/07 11:19:21 783]----------------------------------------------
+[INFO ][2017/12/07 11:19:21 783]记录请求参数
+[INFO ][2017/12/07 11:19:21 785]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 11:19:21 785]delAllValueByKey
+[INFO ][2017/12/07 11:19:21 785]客户端地址:172.16.1.185
+[INFO ][2017/12/07 11:19:21 785]请求方式：POST
+[INFO ][2017/12/07 11:19:21 848]请求的参数信息为：{"key":"方式"}
+[INFO ][2017/12/07 11:19:21 919]返回结果："{\"msg\":\"删除 Redis请求库和返回库对应的key=【方式】成功\",\"o\":[0,0],\"success\":true}"
+[INFO ][2017/12/07 11:23:02 464]----------------------------------------------
+[INFO ][2017/12/07 11:23:02 464]记录请求参数
+[INFO ][2017/12/07 11:23:02 465]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 11:23:02 465]flushAll
+[INFO ][2017/12/07 11:23:02 465]客户端地址:172.16.1.185
+[INFO ][2017/12/07 11:23:02 465]请求方式：POST
+[INFO ][2017/12/07 11:23:02 465]请求的参数信息为：{}
+[INFO ][2017/12/07 11:23:02 465]返回结果："{\"msg\":\"清空Redis库中的所有数据失败，验证失败\",\"success\":false}"
+[INFO ][2017/12/07 11:23:19 328]----------------------------------------------
+[INFO ][2017/12/07 11:23:19 328]记录请求参数
+[INFO ][2017/12/07 11:23:19 329]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 11:23:19 329]flushAll
+[INFO ][2017/12/07 11:23:19 329]客户端地址:172.16.1.185
+[INFO ][2017/12/07 11:23:19 329]请求方式：POST
+[INFO ][2017/12/07 11:23:19 329]请求的参数信息为：{"validMsg":"fa"}
+[INFO ][2017/12/07 11:23:19 330]返回结果："{\"msg\":\"清空Redis库中的所有数据失败，验证失败\",\"success\":false}"
+[INFO ][2017/12/07 11:23:27 638]----------------------------------------------
+[INFO ][2017/12/07 11:23:27 639]记录请求参数
+[INFO ][2017/12/07 11:23:27 639]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/07 11:23:27 639]flushAll
+[INFO ][2017/12/07 11:23:27 639]客户端地址:172.16.1.185
+[INFO ][2017/12/07 11:23:27 640]请求方式：POST
+[INFO ][2017/12/07 11:23:27 640]请求的参数信息为：{"validMsg":"REDIS"}
+[INFO ][2017/12/07 11:23:27 722]返回结果："{\"msg\":\"清空Redis库中的所有数据完成\",\"o\":\"OK\",\"success\":true}"

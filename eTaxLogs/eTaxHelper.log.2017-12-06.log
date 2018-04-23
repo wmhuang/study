@@ -1,0 +1,38 @@
+[INFO ][2017/12/06 16:51:45 245]Starting EtaxApplication on wmhuang-PC with PID 8012 (D:\study\etax\target\classes started by ryp in D:\study\etax)
+[INFO ][2017/12/06 16:51:45 297]Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6025e1b6: startup date [Wed Dec 06 16:51:45 CST 2017]; root of context hierarchy
+[INFO ][2017/12/06 16:51:46 145]Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+[INFO ][2017/12/06 16:51:46 537]HV000001: Hibernate Validator 5.1.3.Final
+[INFO ][2017/12/06 16:51:47 631]Tomcat initialized with port(s): 8080 (http)
+[INFO ][2017/12/06 16:51:47 904]Starting service Tomcat
+[INFO ][2017/12/06 16:51:47 905]Starting Servlet Engine: Apache Tomcat/8.0.23
+[INFO ][2017/12/06 16:51:48 194]Initializing Spring embedded WebApplicationContext
+[INFO ][2017/12/06 16:51:48 195]Root WebApplicationContext: initialization completed in 2901 ms
+[INFO ][2017/12/06 16:51:49 308]Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][2017/12/06 16:51:49 319]Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][2017/12/06 16:51:49 319]Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][2017/12/06 16:51:50 96]Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6025e1b6: startup date [Wed Dec 06 16:51:45 CST 2017]; root of context hierarchy
+[INFO ][2017/12/06 16:51:50 213]Mapped "{[/public/setRequestValue]}" onto public com.css.etax.utils.Result com.css.etax.controller.PublicMethodController.setRequestValue(java.lang.String,java.lang.String)
+[INFO ][2017/12/06 16:51:50 214]Mapped "{[/public/getResponseValue]}" onto public com.css.etax.utils.Result com.css.etax.controller.PublicMethodController.getResponseValue(java.lang.String)
+[INFO ][2017/12/06 16:51:50 214]Mapped "{[/public/getRequestValue]}" onto public com.css.etax.utils.Result com.css.etax.controller.PublicMethodController.getRequestValue(java.lang.String)
+[INFO ][2017/12/06 16:51:50 214]Mapped "{[/public/setResponseValue]}" onto public com.css.etax.utils.Result com.css.etax.controller.PublicMethodController.setResponseValue(java.lang.String,java.lang.String)
+[INFO ][2017/12/06 16:51:50 216]Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][2017/12/06 16:51:50 216]Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+[INFO ][2017/12/06 16:51:50 284]Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][2017/12/06 16:51:50 285]Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][2017/12/06 16:51:50 357]Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][2017/12/06 16:51:50 518]Registering beans for JMX exposure on startup
+[INFO ][2017/12/06 16:51:50 557]Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ][2017/12/06 16:51:50 570]Starting ProtocolHandler ["http-nio-8080"]
+[INFO ][2017/12/06 16:51:50 588]Using a shared selector for servlet write/read
+[INFO ][2017/12/06 16:51:50 623]Tomcat started on port(s): 8080 (http)
+[INFO ][2017/12/06 16:51:50 627]Started EtaxApplication in 5.757 seconds (JVM running for 6.372)
+[INFO ][2017/12/06 16:52:01 947]Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO ][2017/12/06 16:52:01 948]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ][2017/12/06 16:52:01 985]FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms
+[INFO ][2017/12/06 16:52:02 49]----------------------------------------------
+[INFO ][2017/12/06 16:52:02 49]记录请求参数
+[INFO ][2017/12/06 16:52:02 52]com.css.etax.controller.PublicMethodController
+[INFO ][2017/12/06 16:52:02 52]setRequestValue
+[INFO ][2017/12/06 16:52:02 53]客户端地址:172.16.5.27
+[INFO ][2017/12/06 16:52:02 152]请求的参数信息为：{"value":"abcd","key":"a"}
+[INFO ][2017/12/06 16:52:02 259]返回结果：{"msg":"操作成功","success":true}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>我的生活</title>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<link rel="shortcut icon" href="light7-build/docs/favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="stylesheet" href="light7-build/dist/css/light7.css">
+<link rel="stylesheet" href="light7-build/dist/css/light7-swiper.css">
+
+<!-- <link rel="stylesheet" href="/your-css-file.css"> -->
+</head>
+<body>
+ <!-- page集合的容器，里面放多个平行的.page，其他.page作为内联页面由路由控制展示 -->
+    <div class="page-group">
+        <!-- 单个page ,第一个.page默认被展示-->
+        <div class="page">
+
+
+	  <header class="bar bar-nav"  >
+	   <div class="pull-left" style="width:20px;height:20px;margin-top:10px">※</div>
+		  <input id = "my_input" type="text" class ="pull-left" data-toggle='date' style="display:block;border:0px;color:blue;width:90px;BACKGROUND-COLOR: transparent;margin-top:10px;font-size:14px" value="今天 ﹀" onchange="isToday()"/>  
+<!-- 		   <h1 class="title">日程待办</h1> -->
+		  <button class="button pull-right" style="border:0px">
+			通讯录
+		  </button>
+		 <!-- <h1 class="title">标题</h1> -->
+		</header>
+	<div class="content pull-to-refresh-content" data-ptr-distance="55">
+		<div class="pull-to-refresh-layer"> 
+			<div class="preloader"></div>
+			<div class="pull-to-refresh-arrow"></div>
+		</div>
+	 
+		<div class="list-block media-list">
+			<ul>
+				<li><a href="testDetail.html" class="item-link item-content">
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">双创工作会议</div>
+<!-- 								<div class="item-after">17:14</div> -->
+							</div>
+<!-- 							<div class="item-subtitle"></div> -->
+							<div class="item-text">09:00-10:00  3号会议室</div>
+						</div>
+				</a></li>
+				<li><a href="#" class="item-link item-content">
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">参加“大众创业”现场咨询</div>
+<!-- 								<div class="item-after">17:14</div> -->
+							</div>
+<!-- 							<div class="item-subtitle"></div> -->
+							<div class="item-text">10:00-11:30 6号会议室</div>
+						</div>
+				</a></li>
+				<li><a href="#" class="item-link item-content">
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">小规模纳税申报表填表说明</div>
+								<div class="item-after">11:30</div>
+							</div>
+<!-- 							<div class="item-subtitle"></div> -->
+							<div class="item-text">占英：明天吧材料准备好可以吗？</div>
+						</div>
+				</a></li>
+				<li><a href="#" class="item-link item-content">
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">准备“双创”辅导进园区活动材料</div>
+								<div class="item-after">11:42</div> 
+							</div>
+<!-- 							<div class="item-subtitle"></div> -->
+							<div class="item-text">李晓强：任务已完成，请确认。</div>
+						</div>
+				</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+	<script type='text/javascript' src='jquery-3.2.1.js' charset='utf-8'></script>
+	<script type='text/javascript' src='zepto.js' charset='utf-8'></script>
+	<script type='text/javascript'
+		src='light7-build/docs/dist/js/light7.js' charset='utf-8'></script>
+	<script type='text/javascript'
+		src='light7-build/docs/dist/js/light7-swiper.min.js' charset='utf-8'></script>
+
+	<!-- 	<script src="/your-js-file.js"></script> -->
+</body>
+<script type="text/javascript">
+function getToday(){
+	  var date = new Date();
+	  return date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate();
+	 }
+	 
+	 
+	 $("#my_input").calendar({
+				value: [getToday()]
+			});
+	 
+	 $("#select_date").click(function(){
+	 alert(2);
+	 })
+	  // 添加'refresh'监听器
+	$(document).on('refresh', '.pull-to-refresh-content',function(e) {
+	    // 模拟2s的加载过程
+	    setTimeout(function() {
+	        var cardNumber = $(e.target).find('.card').length + 1;
+	        var cardHTML = '<div class="card">' +
+	                          '<div class="card-header">card'+cardNumber+'</div>' +
+	                          '<div class="card-content">' +
+	                            '<div class="card-content-inner">' +
+	                                '这里是第' + cardNumber + '个card，下拉刷新会出现第' + (cardNumber + 1) + '个card。' +
+	                            '</div>' +
+	                          '</div>' +
+	                      '</div>';
+
+	        $(e.target).find('.card-container').prepend(cardHTML);
+	        // 加载完毕需要重置
+	        $.pullToRefreshDone('.pull-to-refresh-content');
+	    }, 2000);
+	});
+	   function isToday(){
+	   /*alert(1);
+	   $("#my_input").val="今天";
+	   
+		var inputVal = $("#my_input").val();
+		if(inputVal==getToday()){
+			$("#my_input").value="今天";
+		}*/
+	   }
+
+
+	function addLisnter() {
+		$(document).on(
+				'refresh',
+				'.pull-to-refresh-content',
+				function(e) {
+					setTimeout(function() {
+						var cardHTML = '<div class="card">'
+								+ '<div class="card-header">New Card</div>'
+								+ '<div class="card-content">'
+								+ '<div class="card-content-inner">'
+								+ 'Hello! I am the new card!'
+								+ (Math.random() * 1000000) + '</div>'
+								+ '</div>' + '</div>';
+
+						$(e.target).find('.card').replaceWith(cardHTML);
+						// done
+						$.pullToRefreshDone('.pull-to-refresh-content');
+					}, 2000);
+				});
+	}
+	addLisnter();
+</script>
+
+</html>

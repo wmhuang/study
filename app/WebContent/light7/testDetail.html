@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>我的生活</title>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<link rel="shortcut icon" href="light7-build/docs/favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="stylesheet" href="light7-build/dist/css/light7.css">
+<link rel="stylesheet" href="light7-build/dist/css/light7-swiper.css">
+
+<!-- <link rel="stylesheet" href="/your-css-file.css"> -->
+</head>
+<body>
+	<!-- page集合的容器，里面放多个平行的.page，其他.page作为内联页面由路由控制展示 -->
+	<div class="page-group">
+		<!-- 单个page ,第一个.page默认被展示-->
+		<div class="page">
+
+
+			<header class="bar bar-nav">
+				<div class="pull-left"
+					style="width: 20px; height: 20px; margin-top: 10px">※</div>
+				<input id="my_input" type="text" class="pull-left"
+					data-toggle='date'
+					style="display: block; border: 0px; color: blue; width: 90px; BACKGROUND-COLOR: transparent; margin-top: 10px; font-size: 14px"
+					value="今天 ﹀" onchange="isToday()" />
+				<!-- 		   <h1 class="title">日程待办</h1> -->
+				<button class="button pull-right" style="border: 0px">通讯录</button>
+				<!-- <h1 class="title">标题</h1> -->
+			</header>
+			<div class="content">
+				<div style="width: 100%; height: 50%; background: white">
+					<table
+						style="width: 90%; height: 100%; margin: 0px 5px; background: white">
+						<tr style="height: 35%;">
+							<td colspan=2><span style="font-family:黑体; font-size:30px">双创工作会议</span></td>
+						</tr>
+						<tr style="height: 2px; background: rgb(246, 246, 246)">
+							<td colspan=2></td>
+						</tr>
+						<tr style="height: 15%">
+							<td style="width: 20%">时间</td>
+							<td style="width: 70%">09:00-10:00</td>
+						</tr>
+						<tr style="height: 15%">
+							<td>地点</td>
+							<td>三号会议室</td>
+						</tr>
+
+						<tr style="height: 15%">
+							<td>人员</td>
+							<td>参与人：李白 杜甫 王勃</td>
+						</tr>
+						<tr style="height: 15%">
+							<td>发起</td>
+							<td>办公室</td>
+						</tr>
+					</table>
+				</div>
+				<div style="width: 100%; height: 50%"></div>
+
+			</div>
+		</div>
+	</div>
+	</div>
+	<script type='text/javascript' src='jquery-3.2.1.js' charset='utf-8'></script>
+	<script type='text/javascript' src='zepto.js' charset='utf-8'></script>
+	<script type='text/javascript'
+		src='light7-build/docs/dist/js/light7.js' charset='utf-8'></script>
+	<script type='text/javascript'
+		src='light7-build/docs/dist/js/light7-swiper.min.js' charset='utf-8'></script>
+
+	<!-- 	<script src="/your-js-file.js"></script> -->
+</body>
+<script type="text/javascript">
+	function getToday() {
+		var date = new Date();
+		return date.getFullYear() + "-" + (date.getMonth() + 1) + "-"
+				+ date.getDate();
+	}
+
+	$("#my_input").calendar({
+		value : [ getToday() ]
+	});
+
+	$("#select_date").click(function() {
+		alert(2);
+	})
+	// 添加'refresh'监听器
+	$(document).on(
+			'refresh',
+			'.pull-to-refresh-content',
+			function(e) {
+				// 模拟2s的加载过程
+				setTimeout(function() {
+					var cardNumber = $(e.target).find('.card').length + 1;
+					var cardHTML = '<div class="card">'
+							+ '<div class="card-header">card' + cardNumber
+							+ '</div>' + '<div class="card-content">'
+							+ '<div class="card-content-inner">' + '这里是第'
+							+ cardNumber + '个card，下拉刷新会出现第' + (cardNumber + 1)
+							+ '个card。' + '</div>' + '</div>' + '</div>';
+
+					$(e.target).find('.card-container').prepend(cardHTML);
+					// 加载完毕需要重置
+					$.pullToRefreshDone('.pull-to-refresh-content');
+				}, 2000);
+			});
+	function isToday() {
+		/*alert(1);
+		$("#my_input").val="今天";
+		
+		var inputVal = $("#my_input").val();
+		if(inputVal==getToday()){
+			$("#my_input").value="今天";
+		}*/
+	}
+
+	function addLisnter() {
+		$(document).on(
+				'refresh',
+				'.pull-to-refresh-content',
+				function(e) {
+					setTimeout(function() {
+						var cardHTML = '<div class="card">'
+								+ '<div class="card-header">New Card</div>'
+								+ '<div class="card-content">'
+								+ '<div class="card-content-inner">'
+								+ 'Hello! I am the new card!'
+								+ (Math.random() * 1000000) + '</div>'
+								+ '</div>' + '</div>';
+
+						$(e.target).find('.card').replaceWith(cardHTML);
+						// done
+						$.pullToRefreshDone('.pull-to-refresh-content');
+					}, 2000);
+				});
+	}
+	addLisnter();
+</script>
+
+</html>
