@@ -1,12 +1,10 @@
 package com.css.workflow.activiti.listener;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.activiti.engine.delegate.DelegateTask;
 import org.activiti.engine.delegate.TaskListener;
-
-import com.css.workflow.activiti.config.Evn;
 
 public class CountersignTask1Listener implements TaskListener {
 
@@ -19,11 +17,18 @@ public class CountersignTask1Listener implements TaskListener {
 		String laeveUserName = (String) delegateTask.getVariable("leaveUserName");
 
 		// 通过请假人名称获取上级领导
-		String leader = Evn.MAN_AND_LEADER.get(laeveUserName);
+		//String leader = Evn.MAN_AND_LEADER.get(laeveUserName);
 
 		System.out.println("请假人名称" + laeveUserName);
 		
-		delegateTask.setVariable("leaderName", leader);
+		//动态设置会签的人数
+		List<String> leaserList =  new ArrayList<String>();
+		leaserList.add("zl");
+		leaserList.add("shj");
+		leaserList.add("lt");
+		
+		delegateTask.setVariable("leaderSize", leaserList.size());
+		delegateTask.setVariable("leaderList", leaserList);
 
 	}
 
