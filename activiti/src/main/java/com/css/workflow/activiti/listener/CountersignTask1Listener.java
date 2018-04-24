@@ -12,6 +12,7 @@ public class CountersignTask1Listener implements TaskListener {
 
 	@Override
 	public void notify(DelegateTask delegateTask) {
+		//https://blog.csdn.net/chq00788/article/details/41513451
 		System.out.println("任务1");
 		// String assginee = delegateTask.getAssignee();
 		String laeveUserName = (String) delegateTask.getVariable("leaveUserName");
