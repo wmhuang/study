@@ -43,6 +43,7 @@ public class MyProcessController {
 		StringBuffer result = new StringBuffer();
 		if (tasks != null && tasks.size() > 0) {
 			for (Task task : tasks) {
+				
 				if (taskId == null) {
 					result.append("<br>任务ID：" + task.getId());
 					result.append("<br>任务的办理人：" + task.getAssignee());
